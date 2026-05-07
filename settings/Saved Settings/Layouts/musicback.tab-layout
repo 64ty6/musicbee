@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CurrentTabHidePanel1>0</CurrentTabHidePanel1>
+<CurrentTabHidePanel2>0</CurrentTabHidePanel2>
+<CurrentTabHidePanel3>0</CurrentTabHidePanel3>
+<CurrentTabHidePanel4>0</CurrentTabHidePanel4>
+<CurrentTabHidePanel5>0</CurrentTabHidePanel5>
+<CurrentTabThumbBrowserHidden>false</CurrentTabThumbBrowserHidden>
+<CurrentTabExplorerHidden>false</CurrentTabExplorerHidden>
+<CurrentTabColumnBrowserHidden>false</CurrentTabColumnBrowserHidden>
+<CurrentTabThumbBrowserField>0</CurrentTabThumbBrowserField>
+<CurrentTabThumbBrowserFilter>0</CurrentTabThumbBrowserFilter>
+<CurrentTabThumbBrowserSortBy>0</CurrentTabThumbBrowserSortBy>
+<CurrentTabThumbBrowserGroupByLetter>false</CurrentTabThumbBrowserGroupByLetter>
+<CurrentTabThumbBrowserGroupByField>0</CurrentTabThumbBrowserGroupByField>
+<NavigatorWidth>442</NavigatorWidth>
+<NavigatorThumbBrowserWidth>629</NavigatorThumbBrowserWidth>
+<NavigatorRightPanel>428</NavigatorRightPanel>
+<FormNowPlayingSidebarWidth>534</FormNowPlayingSidebarWidth>
+<NavigatorQuickBrowseVisible>false</NavigatorQuickBrowseVisible>
+<NavigatorShowJumpList>2</NavigatorShowJumpList>
+<LC_LeftSidebar>5,0,0</LC_LeftSidebar>
+<LC_LeftMainPanel />
+<LC_MainPanel>11,0,0|13,0,0</LC_MainPanel>
+<LC_RightMainPanel />
+<LC_RightSidebar>18,0,1|10,0,1</LC_RightSidebar>
+<Nav_PanelHeight>450</Nav_PanelHeight>
+<NavigatorShowLibraryFilters>false</NavigatorShowLibraryFilters>
+<NavigatorShowBookmarks>false</NavigatorShowBookmarks>
+<NavigatorShowPodcasts>false</NavigatorShowPodcasts>
+<NavigatorShowAudioBooks>false</NavigatorShowAudioBooks>
+<NavigatorShowRadioStations>false</NavigatorShowRadioStations>
+<NavigatorShowVideo>false</NavigatorShowVideo>
+<NavigatorShowInbox>false</NavigatorShowInbox>
+<NavigatorShowHistory>false</NavigatorShowHistory>
+<NavigatorShowNowPlaying>false</NavigatorShowNowPlaying>
+<NavigatorShowMusicExplorer>false</NavigatorShowMusicExplorer>
+<NavigatorShowPlaylistsTab>true</NavigatorShowPlaylistsTab>
+<Nav_ShowAutoDj>false</Nav_ShowAutoDj>
+<Nav_ShowPlaylistManager>false</Nav_ShowPlaylistManager>
+<NavigatorShowWebTab>false</NavigatorShowWebTab>
+<NavigatorShowComputerTab>false</NavigatorShowComputerTab>
+<NavigatorShowSubFolderFiles>false</NavigatorShowSubFolderFiles>
+<NavigatorShowFilteredFolders>false</NavigatorShowFilteredFolders>
+<ThumbPanelHeight>450</ThumbPanelHeight>
+<ThumbPanelWidth>330</ThumbPanelWidth>
+<ThumbPictureSize>2</ThumbPictureSize>
+<ThumbHideAlbumStats>false</ThumbHideAlbumStats>
+<ThumbHideInPlaylists>false</ThumbHideInPlaylists>
+<ThumbAlwaysShowAlbumCover>true</ThumbAlwaysShowAlbumCover>
+<LE_PanelHeight>450</LE_PanelHeight>
+<FormLibraryExplorerCategory>31</FormLibraryExplorerCategory>
+<FormLibraryExplorerSorting>1</FormLibraryExplorerSorting>
+<FormLibraryExplorerSortOverrides>
+ <int>1</int>
+ <int>1</int>
+ <int>1</int>
+ <int>1</int>
+</FormLibraryExplorerSortOverrides>
+<FormLibraryExplorerCountType>0</FormLibraryExplorerCountType>
+<FormLibraryExplorerSTF>false</FormLibraryExplorerSTF>
+<THE_PanelHeight>0</THE_PanelHeight>
+<THE_TemplateName>Genres</THE_TemplateName>
+<THE_ShowCount>false</THE_ShowCount>
+<THE_ExpandedNodes>
+</THE_ExpandedNodes>
+<THE_ShowFinder>false</THE_ShowFinder>
+<FM_PanelHeight>0</FM_PanelHeight>
+<MP_PictureSize>1</MP_PictureSize>
+<ACP_Source>0</ACP_Source>
+<FormNowPlayingSidebarArtwork2Height>0</FormNowPlayingSidebarArtwork2Height>
+<AP_Height>0</AP_Height>
+<AP_MainPanelHeight>428</AP_MainPanelHeight>
+<ABP_PersonType>32</ABP_PersonType>
+<ABP_Source>0</ABP_Source>
+<ABP_Height>0</ABP_Height>
+<LYP_Source>0</LYP_Source>
+<LYP_Height>692</LYP_Height>
+<SoundGraphHeight>51</SoundGraphHeight>
+<SoundGraphCount>1</SoundGraphCount>
+<TB_Height>27</TB_Height>
+<FormNowPlayingSidebarArtworkHeight>663</FormNowPlayingSidebarArtworkHeight>
+<TIP_FloatHeight>0</TIP_FloatHeight>
+<TIP_NowPlayHeight>0</TIP_NowPlayHeight>
+<TIP_Source>0</TIP_Source>
+<FormNowPlayingArtwork>TextAboveImage</FormNowPlayingArtwork>
+<FormNowPlayingArtworkSize>0</FormNowPlayingArtworkSize>
+<TIP_CenterText>false</TIP_CenterText>
+<FormNowPlayingTrackInfoMax0>1</FormNowPlayingTrackInfoMax0>
+<FormNowPlayingTrackInfoMax1>1</FormNowPlayingTrackInfoMax1>
+<FormNowPlayingTrackInfoMax2>1</FormNowPlayingTrackInfoMax2>
+<FormNowPlayingTrackInfoMax3>1</FormNowPlayingTrackInfoMax3>
+<FormNowPlayingTrackInfoMax4>1</FormNowPlayingTrackInfoMax4>
+<FormNowPlayingTrackInfoMax5>1</FormNowPlayingTrackInfoMax5>
+<FormNowPlayingTrackInfoMax6>1</FormNowPlayingTrackInfoMax6>
+<FormNowPlayingTrackRating>false</FormNowPlayingTrackRating>
+<FormNowPlayingTrackLove>false</FormNowPlayingTrackLove>
+<FormNowPlayingPDF>false</FormNowPlayingPDF>
+<FormNowPlayingTrackUrl>false</FormNowPlayingTrackUrl>
+<FormNowPlayingTrackInfoExtended>false</FormNowPlayingTrackInfoExtended>
+<LinkToFilter>false</LinkToFilter>
+<FormNowPlayingSidebarArtworkHeight2>592</FormNowPlayingSidebarArtworkHeight2>
+<TIP_FloatHeight2>0</TIP_FloatHeight2>
+<TIP_NowPlayHeight2>0</TIP_NowPlayHeight2>
+<TIP_Source2>0</TIP_Source2>
+<FormNowPlayingArtwork2>Overlay</FormNowPlayingArtwork2>
+<FormNowPlayingArtworkSize2>0</FormNowPlayingArtworkSize2>
+<TIP_CenterText2>false</TIP_CenterText2>
+<FormNowPlaying2TrackInfoMax0>1</FormNowPlaying2TrackInfoMax0>
+<FormNowPlaying2TrackInfoMax1>1</FormNowPlaying2TrackInfoMax1>
+<FormNowPlaying2TrackInfoMax2>1</FormNowPlaying2TrackInfoMax2>
+<FormNowPlaying2TrackInfoMax3>1</FormNowPlaying2TrackInfoMax3>
+<FormNowPlaying2TrackInfoMax4>1</FormNowPlaying2TrackInfoMax4>
+<FormNowPlaying2TrackInfoMax5>1</FormNowPlaying2TrackInfoMax5>
+<FormNowPlaying2TrackInfoMax6>1</FormNowPlaying2TrackInfoMax6>
+<FormNowPlaying2TrackRating>false</FormNowPlaying2TrackRating>
+<FormNowPlaying2TrackLove>false</FormNowPlaying2TrackLove>
+<FormNowPlaying2PDF>false</FormNowPlaying2PDF>
+<FormNowPlaying2TrackUrl>false</FormNowPlaying2TrackUrl>
+<FormNowPlaying2TrackInfoExtended>false</FormNowPlaying2TrackInfoExtended>
+<LinkToFilter2>false</LinkToFilter2>
+<NavigatorArtworkTracksHeight>0</NavigatorArtworkTracksHeight>
+<NavigatorArtworkTracksWidth>0</NavigatorArtworkTracksWidth>
+<AP_DrillDown>1</AP_DrillDown>
+<AP_ArtDrillDown>1</AP_ArtDrillDown>
+<AP_ArtDrillDownGrouping>0</AP_ArtDrillDownGrouping>
+<FormNowPlayingShowTrackFinder>false</FormNowPlayingShowTrackFinder>
+<FormNowPlayingPanelLayout>3</FormNowPlayingPanelLayout>
+<PT_ShowUpcoming>false</PT_ShowUpcoming>
+<PT_ThumbSize>2</PT_ThumbSize>
+<NowPlayingThumbFields0>65</NowPlayingThumbFields0>
+<NowPlayingThumbContrast0>100</NowPlayingThumbContrast0>
+<PT_ThumbFieldsR0>16</PT_ThumbFieldsR0>
+<PT_ThumbContrastR0>100</PT_ThumbContrastR0>
+<NowPlayingThumbFields1>32</NowPlayingThumbFields1>
+<NowPlayingThumbContrast1>40</NowPlayingThumbContrast1>
+<PT_ThumbFieldsR1>0</PT_ThumbFieldsR1>
+<PT_ThumbContrastR1>0</PT_ThumbContrastR1>
+<NowPlayingThumbFields2>0</NowPlayingThumbFields2>
+<NowPlayingThumbContrast2>0</NowPlayingThumbContrast2>
+<PT_ThumbFieldsR2>0</PT_ThumbFieldsR2>
+<PT_ThumbContrastR2>0</PT_ThumbContrastR2>
+<FormNowPlayingSidebarFields>
+ <MediaField>
+  <Code>20</Code>
+  <Width>24</Width>
+ </MediaField>
+ <MediaField>
+  <Code>78</Code>
+  <Width>38</Width>
+ </MediaField>
+ <MediaField>
+  <Code>65</Code>
+  <Width>240</Width>
+ </MediaField>
+ <MediaField>
+  <Code>32</Code>
+  <Width>180</Width>
+ </MediaField>
+</FormNowPlayingSidebarFields>
+<FormNowPlayingSidebarFieldsAlbTr>
+ <MediaField>
+  <Code>20</Code>
+  <Width>24</Width>
+ </MediaField>
+ <MediaField>
+  <Code>78</Code>
+  <Width>38</Width>
+ </MediaField>
+ <MediaField>
+  <Code>65</Code>
+  <Width>240</Width>
+ </MediaField>
+ <MediaField>
+  <Code>32</Code>
+  <Width>180</Width>
+ </MediaField>
+</FormNowPlayingSidebarFieldsAlbTr>
+<FormNowPlayingBottomPanelHeight>225</FormNowPlayingBottomPanelHeight>
+<FormNowPlayingBottomPanelFields>
+ <MediaField>
+  <Code>20</Code>
+  <Width>24</Width>
+ </MediaField>
+ <MediaField>
+  <Code>78</Code>
+  <Width>38</Width>
+ </MediaField>
+ <MediaField>
+  <Code>65</Code>
+  <Width>240</Width>
+ </MediaField>
+ <MediaField>
+  <Code>32</Code>
+  <Width>180</Width>
+ </MediaField>
+ <MediaField>
+  <Code>30</Code>
+  <Width>165</Width>
+ </MediaField>
+ <MediaField>
+  <Code>53</Code>
+  <Width>60</Width>
+ </MediaField>
+ <MediaField>
+  <Code>59</Code>
+  <Width>195</Width>
+ </MediaField>
+ <MediaField>
+  <Code>75</Code>
+  <Width>112</Width>
+ </MediaField>
+ <MediaField>
+  <Code>16</Code>
+  <Width>68</Width>
+ </MediaField>
+</FormNowPlayingBottomPanelFields>
+<FormNowPlayingBottomPanelAlbTr>
+ <MediaField>
+  <Code>40</Code>
+  <Width>180</Width>
+ </MediaField>
+ <MediaField>
+  <Code>20</Code>
+  <Width>24</Width>
+ </MediaField>
+ <MediaField>
+  <Code>53</Code>
+  <Width>60</Width>
+ </MediaField>
+ <MediaField>
+  <Code>65</Code>
+  <Width>240</Width>
+ </MediaField>
+ <MediaField>
+  <Code>32</Code>
+  <Width>180</Width>
+ </MediaField>
+ <MediaField>
+  <Code>75</Code>
+  <Width>112</Width>
+ </MediaField>
+ <MediaField>
+  <Code>16</Code>
+  <Width>68</Width>
+ </MediaField>
+</FormNowPlayingBottomPanelAlbTr>
+<FormNowPlayingWindowFields>
+ <MediaField>
+  <Code>20</Code>
+  <Width>24</Width>
+ </MediaField>
+ <MediaField>
+  <Code>78</Code>
+  <Width>29</Width>
+ </MediaField>
+ <MediaField>
+  <Code>65</Code>
+  <Width>286</Width>
+ </MediaField>
+ <MediaField>
+  <Code>32</Code>
+  <Width>213</Width>
+ </MediaField>
+ <MediaField>
+  <Code>16</Code>
+  <Width>176</Width>
+ </MediaField>
+</FormNowPlayingWindowFields>
+<PlayerSidebarPlayerHidePB>false</PlayerSidebarPlayerHidePB>
+<SBP_HideText>false</SBP_HideText>
+<SBP_ShowPlayDur>false</SBP_ShowPlayDur>
+<PlayerSidebarPlayerShowAll2>false</PlayerSidebarPlayerShowAll2>
+<NPB_Height>262</NPB_Height>
+<NPB_DefaultTab>0</NPB_DefaultTab>
+<NPB_AutoColor>true</NPB_AutoColor>
+<TrackAndArtistShowLyricsBottom>true</TrackAndArtistShowLyricsBottom>
+<NPB_ShowArtist>false</NPB_ShowArtist>
+<NavigatorQuickBrowseOrientation>0</NavigatorQuickBrowseOrientation>
+<NavigatorQuickBrowseHeight>0</NavigatorQuickBrowseHeight>
+<NavigatorQuickBrowseWidth>0</NavigatorQuickBrowseWidth>
+<CB_PanelWidthSbS>0</CB_PanelWidthSbS>
+<NavigatorQuickBrowseShowCount>false</NavigatorQuickBrowseShowCount>
+<NavigatorQuickBrowseVisibleNotPlaylists>false</NavigatorQuickBrowseVisibleNotPlaylists>
+<NavigatorTrackBrowserPrimaryFilter>59</NavigatorTrackBrowserPrimaryFilter>
+<NavigatorTrackBrowserPrimary2Filter>32</NavigatorTrackBrowserPrimary2Filter>
+<NavigatorTrackBrowserSecondaryFilter>30</NavigatorTrackBrowserSecondaryFilter>
+<NavigatorTrackBrowserTertiaryFilter>0</NavigatorTrackBrowserTertiaryFilter>
+<NavigatorTrackBrowser4Filter>0</NavigatorTrackBrowser4Filter>
+<NavigatorTrackBrowser5Filter>0</NavigatorTrackBrowser5Filter>
+<NavigatorTrackBrowser6Filter>0</NavigatorTrackBrowser6Filter>
+<NavigatorTrackBrowser7Filter>0</NavigatorTrackBrowser7Filter>
+<NavigatorAzOrientation>0</NavigatorAzOrientation>
+<NavigatorAzMultiLetter>false</NavigatorAzMultiLetter>
+<SpectrumHeight>51</SpectrumHeight>
+<SpectrumType>1</SpectrumType>
+<VIS_Height>0</VIS_Height>
+<NavigatorVisualiserId>D:\Music\MusicBee\BBPlugin\Interference.dll</NavigatorVisualiserId>
+<LayoutVisualiserStartup>0</LayoutVisualiserStartup>
+<LayoutVisualiserFullScreenDock>4</LayoutVisualiserFullScreenDock>
+<VV_Type>0</VV_Type>
+<TAG_PanelCollapsed>false</TAG_PanelCollapsed>
+<TAG_Source>1</TAG_Source>
+<TAG_Fields>
+ <int>32</int>
+ <int>30</int>
+ <int>65</int>
+ <int>75</int>
+</TAG_Fields>
+<TAG_LastPanel>5</TAG_LastPanel>
+<TAG_LastIndex>2</TAG_LastIndex>
+</ApplicationSettings>

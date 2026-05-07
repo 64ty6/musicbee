@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SmartPlaylist SaveStaticCopy="False" LiveUpdating="True" Layout="4" LayoutGroupBy="0" ShuffleMode="None" ShuffleSameArtistWeight="0.5" GroupBy="track" ConsolidateAlbums="False" MusicLibraryPath="C:\Users\xwd\Music\MusicBee\">
+  <Source Type="16">
+    <SourcePath Location="C:\Users\xwd\Music\MusicBee\Playlists\Music\.xautopf" />
+    <Description />
+    <Conditions CombineMethod="All" />
+    <Limit FilterDuplicates="False" Enabled="False" Count="25" Type="Items" SelectedBy="Random" />
+    <SortBy Field="14" Order="Descending" />
+    <Fields>
+      <Group Id="TrackDetail">
+        <Field Code="20" Width="24" />
+        <Field Code="78" Width="60" />
+        <Field Code="32" Width="428" />
+        <Field Code="65" Width="386" />
+        <Field Code="30" Width="352" />
+        <Field Code="16" Width="212" />
+        <Field Code="14" Width="108" />
+      </Group>
+    </Fields>
+  </Source>
+</SmartPlaylist>

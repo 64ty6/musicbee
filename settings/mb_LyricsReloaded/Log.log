@@ -1,0 +1,65 @@
+﻿05/05/2026 10:53:01 [INFO] mb_LyricsReloaded in version 1.3.0.0 started!
+05/05/2026 10:53:01 [DEBUG] Loading config from default provider_geniusA
+05/05/2026 10:53:01 [INFO] Provider loaded: Genius (a)
+05/05/2026 10:53:01 [DEBUG] Loading config from default provider_geniusB
+05/05/2026 10:53:01 [INFO] Provider loaded: Genius (b)
+05/05/2026 10:53:01 [DEBUG] Loading config from default provider_LetrasA
+05/05/2026 10:53:01 [INFO] Provider loaded: Letras (a)
+05/05/2026 10:53:01 [DEBUG] Loading config from default provider_LetrasB
+05/05/2026 10:53:01 [INFO] Provider loaded: Letras (b)
+05/05/2026 10:53:01 [DEBUG] Received a notification of type PluginStartup
+05/05/2026 10:53:01 [DEBUG] Received a notification of type MusicBeeStarted
+05/05/2026 05:47:52 [INFO] Plugin disabled
+
+05/05/2026 08:15:47 [INFO] mb_LyricsReloaded in version 1.3.0.0 started!
+05/05/2026 08:15:47 [DEBUG] Loading config from default provider_geniusA
+05/05/2026 08:15:47 [INFO] Provider loaded: Genius (a)
+05/05/2026 08:15:47 [DEBUG] Loading config from default provider_geniusB
+05/05/2026 08:15:47 [INFO] Provider loaded: Genius (b)
+05/05/2026 08:15:47 [DEBUG] Loading config from default provider_LetrasA
+05/05/2026 08:15:47 [INFO] Provider loaded: Letras (a)
+05/05/2026 08:15:47 [DEBUG] Loading config from default provider_LetrasB
+05/05/2026 08:15:47 [INFO] Provider loaded: Letras (b)
+05/05/2026 08:15:47 [DEBUG] Received a notification of type PluginStartup
+05/05/2026 08:15:47 [DEBUG] Received a notification of type MusicBeeStarted
+05/05/2026 10:49:03 [INFO] Plugin disabled
+
+06/05/2026 08:33:05 [INFO] mb_LyricsReloaded in version 1.3.0.0 started!
+06/05/2026 08:33:05 [DEBUG] Loading config from default provider_geniusA
+06/05/2026 08:33:05 [INFO] Provider loaded: Genius (a)
+06/05/2026 08:33:05 [DEBUG] Loading config from default provider_geniusB
+06/05/2026 08:33:05 [INFO] Provider loaded: Genius (b)
+06/05/2026 08:33:05 [DEBUG] Loading config from default provider_LetrasA
+06/05/2026 08:33:05 [INFO] Provider loaded: Letras (a)
+06/05/2026 08:33:05 [DEBUG] Loading config from default provider_LetrasB
+06/05/2026 08:33:05 [INFO] Provider loaded: Letras (b)
+06/05/2026 08:33:05 [DEBUG] Received a notification of type PluginStartup
+06/05/2026 08:33:05 [DEBUG] Received a notification of type MusicBeeStarted
+06/05/2026 10:34:07 [INFO] Plugin disabled
+
+06/05/2026 11:06:05 [INFO] mb_LyricsReloaded in version 1.3.0.0 started!
+06/05/2026 11:06:05 [DEBUG] Loading config from default provider_geniusA
+06/05/2026 11:06:05 [INFO] Provider loaded: Genius (a)
+06/05/2026 11:06:05 [DEBUG] Loading config from default provider_geniusB
+06/05/2026 11:06:05 [INFO] Provider loaded: Genius (b)
+06/05/2026 11:06:05 [DEBUG] Loading config from default provider_LetrasA
+06/05/2026 11:06:05 [INFO] Provider loaded: Letras (a)
+06/05/2026 11:06:05 [DEBUG] Loading config from default provider_LetrasB
+06/05/2026 11:06:05 [INFO] Provider loaded: Letras (b)
+06/05/2026 11:06:05 [DEBUG] Received a notification of type PluginStartup
+06/05/2026 11:06:05 [DEBUG] Received a notification of type MusicBeeStarted
+07/05/2026 12:41:37 [INFO] Plugin disabled
+
+07/05/2026 11:18:13 [INFO] mb_LyricsReloaded in version 1.3.0.0 started!
+07/05/2026 11:18:13 [DEBUG] Loading config from default provider_geniusA
+07/05/2026 11:18:13 [INFO] Provider loaded: Genius (a)
+07/05/2026 11:18:13 [DEBUG] Loading config from default provider_geniusB
+07/05/2026 11:18:13 [INFO] Provider loaded: Genius (b)
+07/05/2026 11:18:13 [DEBUG] Loading config from default provider_LetrasA
+07/05/2026 11:18:13 [INFO] Provider loaded: Letras (a)
+07/05/2026 11:18:13 [DEBUG] Loading config from default provider_LetrasB
+07/05/2026 11:18:13 [INFO] Provider loaded: Letras (b)
+07/05/2026 11:18:13 [DEBUG] Received a notification of type PluginStartup
+07/05/2026 11:18:13 [DEBUG] Received a notification of type MusicBeeStarted
+07/05/2026 04:17:24 [INFO] Plugin disabled
+
