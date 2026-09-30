@@ -10,12 +10,13 @@
 <OrganisationLibraryMoveNonMusicFiles>false</OrganisationLibraryMoveNonMusicFiles>
 <MovePdfFiles>false</MovePdfFiles>
 <OrganisationLastScannedFolders>
- <string>D:\Music\Music\</string>
+ <string>\Music\Music\</string>
 </OrganisationLastScannedFolders>
 <OrganisationLibraryExportTagData>false</OrganisationLibraryExportTagData>
 <OrganisationMonitoringCheckStatus>false</OrganisationMonitoringCheckStatus>
 <MusicOrganiseEnabled>true</MusicOrganiseEnabled>
-<MusicFromFolder>C:\</MusicFromFolder>
+<MusicFromFolder>\</MusicFromFolder>
+<OrganisationLibraryMusicFolderPath>C:\Users\xwd\Music\MusicBee\Music\</OrganisationLibraryMusicFolderPath>
 <OrganisationLibraryFilenameRules>
  <NamingRule>
   <Field>31</Field>
@@ -35,7 +36,8 @@
  </NamingRule>
 </OrganisationLibraryFilenameRules>
 <ABOrganiseEnabled>true</ABOrganiseEnabled>
-<ABFromFolder>C:\</ABFromFolder>
+<ABFromFolder>\</ABFromFolder>
+<ABFolderPath>C:\Users\xwd\Music\MusicBee\Audiobooks\</ABFolderPath>
 <ABFilenameRules>
  <NamingRule>
   <Field>30</Field>
@@ -55,7 +57,8 @@
  </NamingRule>
 </ABFilenameRules>
 <VOrganiseEnabled>true</VOrganiseEnabled>
-<VFromFolder>C:\</VFromFolder>
+<VFromFolder>\</VFromFolder>
+<VFolderPath>C:\Users\xwd\Music\MusicBee\Video\</VFolderPath>
 <VFilenameRules>
  <NamingRule>
   <Field>30</Field>
@@ -67,8 +70,8 @@
  </NamingRule>
 </VFilenameRules>
 <OrganisationPlaylistsFormat2>12</OrganisationPlaylistsFormat2>
-<OrganisationExportedPlaylistsMFolderPath>C:\Users\xwd\Music\MusicBee\Exported Playlists\</OrganisationExportedPlaylistsMFolderPath>
-<OrganisationExportedPlaylistsFolderPath>D:\Backup\</OrganisationExportedPlaylistsFolderPath>
+<OrganisationExportedPlaylistsMFolderPath>\Music\MusicBee\Exported Playlists\</OrganisationExportedPlaylistsMFolderPath>
+<OrganisationExportedPlaylistsFolderPath>\Backup\</OrganisationExportedPlaylistsFolderPath>
 <OrganisationExportedPlaylistsFormat>1</OrganisationExportedPlaylistsFormat>
 <OrganisationExportRelativeFilePaths>false</OrganisationExportRelativeFilePaths>
 <OrganisationExportUnixConvention>false</OrganisationExportUnixConvention>

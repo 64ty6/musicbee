@@ -13,10 +13,10 @@
 <CurrentTabThumbBrowserSortBy>0</CurrentTabThumbBrowserSortBy>
 <CurrentTabThumbBrowserGroupByLetter>false</CurrentTabThumbBrowserGroupByLetter>
 <CurrentTabThumbBrowserGroupByField>0</CurrentTabThumbBrowserGroupByField>
-<NavigatorWidth>442</NavigatorWidth>
+<NavigatorWidth>254</NavigatorWidth>
 <NavigatorThumbBrowserWidth>629</NavigatorThumbBrowserWidth>
 <NavigatorRightPanel>428</NavigatorRightPanel>
-<FormNowPlayingSidebarWidth>534</FormNowPlayingSidebarWidth>
+<FormNowPlayingSidebarWidth>312</FormNowPlayingSidebarWidth>
 <NavigatorQuickBrowseVisible>false</NavigatorQuickBrowseVisible>
 <NavigatorShowJumpList>2</NavigatorShowJumpList>
 <LC_LeftSidebar>5,0,0</LC_LeftSidebar>
@@ -75,11 +75,11 @@
 <ABP_Source>0</ABP_Source>
 <ABP_Height>0</ABP_Height>
 <LYP_Source>0</LYP_Source>
-<LYP_Height>692</LYP_Height>
+<LYP_Height>491</LYP_Height>
 <SoundGraphHeight>51</SoundGraphHeight>
 <SoundGraphCount>1</SoundGraphCount>
-<TB_Height>27</TB_Height>
-<FormNowPlayingSidebarArtworkHeight>663</FormNowPlayingSidebarArtworkHeight>
+<TB_Height>18</TB_Height>
+<FormNowPlayingSidebarArtworkHeight>349</FormNowPlayingSidebarArtworkHeight>
 <TIP_FloatHeight>0</TIP_FloatHeight>
 <TIP_NowPlayHeight>0</TIP_NowPlayHeight>
 <TIP_Source>0</TIP_Source>

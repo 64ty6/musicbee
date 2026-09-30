@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<ENV_OrigSetPath>C:\Users\xwd\AppData\Roaming\MusicBee\</ENV_OrigSetPath>
+<ENV_OrigSetPath>D:\Music\MusicBee\AppData\</ENV_OrigSetPath>
 <ENV_LibPath>C:\Users\xwd\Music\MusicBee\</ENV_LibPath>
 <ENV_PromptLib>false</ENV_PromptLib>
 <ENV_KnownLib>
  <string>C:\Users\xwd\Music\MusicBee\</string>
+ <string>\Music\MusicBee\</string>
 </ENV_KnownLib>
 <SystemCacheExpiryDateTime>0</SystemCacheExpiryDateTime>
 <ENV_TempFolder />
@@ -35,14 +36,14 @@
 <ENV_InstallPlugins>false</ENV_InstallPlugins>
 <SystemPlugin>
  <State>
-  <Id>D:\Music\MusicBee\Plugins\mb_LyricsReloaded.dll</Id>
+  <Id>\Music\MusicBee\Plugins\mb_LyricsReloaded.dll</Id>
   <Name>Lyrics Reloaded v1.3.0</Name>
   <Description>Manage providers at Tags (2) -&gt; auto-tagging -&gt; lyrics</Description>
   <Enabled>true</Enabled>
   <ConfigHeight>27</ConfigHeight>
  </State>
  <State>
-  <Id>D:\Music\MusicBee\Plugins\mb_TheaterModePlugin.dll</Id>
+  <Id>\Music\MusicBee\Plugins\mb_TheaterModePlugin.dll</Id>
   <Name>剧院模式</Name>
   <Description>显示一个自定义剧院模式视图</Description>
   <Enabled>true</Enabled>
@@ -63,9 +64,8 @@
  </NamingRule>
 </SystemClipboardTrackInfoLine1>
 <ENV_EqWriteable>true</ENV_EqWriteable>
-<ENV_VerifyFileMove>false</ENV_VerifyFileMove>
-<ENV_LastSendToPlaylist>C:\Users\xwd\Music\MusicBee\Playlists\Music\Lana Del Rey\Norman Fucking Rockwell!.mbp</ENV_LastSendToPlaylist>
-<ENV_ExportPlaylistsOnRestart>false</ENV_ExportPlaylistsOnRestart>
+<ENV_LastSendToPlaylist>C:\Users\xwd\Music\MusicBee\Playlists\Music\The Rolling Stones\Let It Bleed.mbp</ENV_LastSendToPlaylist>
+<ENV_ExportPlaylistsOnRestart>true</ENV_ExportPlaylistsOnRestart>
 <Tool_PicViewerEnabled>false</Tool_PicViewerEnabled>
 <NetworkUseProxy>false</NetworkUseProxy>
 <NetworkUsername />
@@ -83,7 +83,7 @@
 </WebDownloadsMusicFilenameRules>
 <WebFreeDbServer2>gnudb.gnudb.org</WebFreeDbServer2>
 <NavigatorDefaultDownloadCategory>2</NavigatorDefaultDownloadCategory>
-<NavigatorLastDownloadMoveToDirectory>C:\Users\xwd\Music\</NavigatorLastDownloadMoveToDirectory>
+<NavigatorLastDownloadMoveToDirectory>\Music\</NavigatorLastDownloadMoveToDirectory>
 <SystemLockMode>10</SystemLockMode>
 <SystemLockOnRestart>false</SystemLockOnRestart>
 <SystemShutdownMode>0</SystemShutdownMode>
@@ -433,11 +433,11 @@
 <SearchFilterResults>true</SearchFilterResults>
 <ArtistSortMapping>BEYONDＢＥＹＯＮＤ宇多田ヒカル？？？？？？？Utada HikaruＵｔａｄａ　Ｈｉｋａｒｕ</ArtistSortMapping>
 <AlbumSortMapping>Best of the BestＢｅｓｔ　ｏｆ　ｔｈｅ　ＢｅｓｔDistance (Remastered 2018)Ｄｉｓｔａｎｃｅ　（Ｒｅｍａｓｔｅｒｅｄ　２０１８）初恋ハツコイDistanceＤｉｓｔａｎｃｅ　（Ｒｅｍａｓｔｅｒｅｄ　２０１８）</AlbumSortMapping>
+<DisableSortAsTags>true</DisableSortAsTags>
 <TagIgnoreArtistPrefixes>true</TagIgnoreArtistPrefixes>
 <TagSortingIgnoreArtistPrefixList>
  <string>The </string>
 </TagSortingIgnoreArtistPrefixList>
-<DisableSortAsTags>true</DisableSortAsTags>
 <HR_MaxDisplayCount>1</HR_MaxDisplayCount>
 <LC_HeaderBar>1,0,0|2,0,0|3,0,0</LC_HeaderBar>
 <LC_TopPanel />
@@ -456,35 +456,35 @@
 <NavigatorMusicLibraryFields>
  <MediaField>
   <Code>20</Code>
-  <Width>22</Width>
+  <Width>16</Width>
  </MediaField>
  <MediaField>
   <Code>32</Code>
-  <Width>238</Width>
+  <Width>173</Width>
  </MediaField>
  <MediaField>
   <Code>65</Code>
-  <Width>316</Width>
+  <Width>229</Width>
  </MediaField>
  <MediaField>
   <Code>30</Code>
-  <Width>217</Width>
+  <Width>157</Width>
  </MediaField>
  <MediaField>
   <Code>88</Code>
-  <Width>80</Width>
+  <Width>58</Width>
  </MediaField>
  <MediaField>
   <Code>59</Code>
-  <Width>255</Width>
+  <Width>185</Width>
  </MediaField>
  <MediaField>
   <Code>75</Code>
-  <Width>112</Width>
+  <Width>75</Width>
  </MediaField>
  <MediaField>
   <Code>16</Code>
-  <Width>94</Width>
+  <Width>68</Width>
  </MediaField>
 </NavigatorMusicLibraryFields>
 <NavigatorMusicLibrarySortColumns>
@@ -972,31 +972,31 @@
 <NavigatorPlaylistFields>
  <MediaField>
   <Code>20</Code>
-  <Width>22</Width>
+  <Width>16</Width>
  </MediaField>
  <MediaField>
   <Code>78</Code>
-  <Width>38</Width>
+  <Width>29</Width>
  </MediaField>
  <MediaField>
   <Code>32</Code>
-  <Width>434</Width>
+  <Width>263</Width>
  </MediaField>
  <MediaField>
   <Code>65</Code>
-  <Width>392</Width>
+  <Width>236</Width>
  </MediaField>
  <MediaField>
   <Code>30</Code>
-  <Width>356</Width>
+  <Width>215</Width>
  </MediaField>
  <MediaField>
   <Code>16</Code>
-  <Width>218</Width>
+  <Width>135</Width>
  </MediaField>
  <MediaField>
   <Code>14</Code>
-  <Width>110</Width>
+  <Width>67</Width>
  </MediaField>
 </NavigatorPlaylistFields>
 <NavigatorPlaylistSortOverride>5</NavigatorPlaylistSortOverride>
@@ -1147,10 +1147,11 @@
 <AlbumH2F1>59</AlbumH2F1>
 <AlbumH2F2>0</AlbumH2F2>
 <AlbumH2F3>0</AlbumH2F3>
-<AlbumSingleColumn>false</AlbumSingleColumn>
+<AlbumMaximumColumnCount>2147483647</AlbumMaximumColumnCount>
 <AlbumFLove>true</AlbumFLove>
 <AlbumFRating>false</AlbumFRating>
 <AlbumFHighlight>true</AlbumFHighlight>
+<AlbumTitleField>65</AlbumTitleField>
 <JukeboxField0>65</JukeboxField0>
 <JukeboxContrast0>0</JukeboxContrast0>
 <JukeboxField1>32</JukeboxField1>
@@ -1205,28 +1206,29 @@
 <LC_MainPlayerBelowSB>false</LC_MainPlayerBelowSB>
 <LC_StatusBar>true</LC_StatusBar>
 <LayoutMenuDock>2</LayoutMenuDock>
-<TabsInCaption>false</TabsInCaption>
+<TabsInCaption>true</TabsInCaption>
 <MF_TabsCentred>true</MF_TabsCentred>
+<MF_TabsHide>false</MF_TabsHide>
 <MF_ButtonsDock>0</MF_ButtonsDock>
 <HotkeyColourIcons>false</HotkeyColourIcons>
-<MF_CaptionSearchTextWidth>0</MF_CaptionSearchTextWidth>
+<MF_CaptionSearchTextWidth>100</MF_CaptionSearchTextWidth>
 <NavigatorSearchTextWidth>173</NavigatorSearchTextWidth>
 <MF_HideSearchBox>false</MF_HideSearchBox>
 <MF_HideHeaderBar>true</MF_HideHeaderBar>
 <FormWindowState>Maximized</FormWindowState>
 <FormLocation>
- <X>859</X>
- <Y>46</Y>
+ <X>-1600</X>
+ <Y>128</Y>
 </FormLocation>
 <FormSize>
- <Width>1298</Width>
- <Height>1609</Height>
+ <Width>782</Width>
+ <Height>487</Height>
 </FormSize>
 <FormTagEditorDock>1</FormTagEditorDock>
 <NavigatorInitialTabs>
  <NavigationLocation>
   <FolderCategory>13</FolderCategory>
-  <Url>C:\Users\xwd\Music\MusicBee\Playlists\Music\Simon &amp; Garfunkel\Bookends.mbp</Url>
+  <Url>C:\Users\xwd\Music\MusicBee\Playlists\Music\Vampire Weekend\Modern Vampires Of The City.mbp</Url>
   <ThumbBrowserField>0</ThumbBrowserField>
   <TextOverride>Music</TextOverride>
   <HideLeftPanel>2</HideLeftPanel>
@@ -1239,6 +1241,22 @@
  </NavigationLocation>
 </NavigatorInitialTabs>
 <NavigatorInitialTabIndex>0</NavigatorInitialTabIndex>
+<PF_All0>false</PF_All0>
+<PF_All1>false</PF_All1>
+<PF_All2>false</PF_All2>
+<PF_All3>false</PF_All3>
+<PF_All4>false</PF_All4>
+<PF_All5>false</PF_All5>
+<PF_All6>false</PF_All6>
+<PF_All7>false</PF_All7>
+<PF_All8>false</PF_All8>
+<PF_All9>false</PF_All9>
+<PF_All10>false</PF_All10>
+<PF_All11>false</PF_All11>
+<PF_All12>false</PF_All12>
+<PF_All13>false</PF_All13>
+<PF_All14>false</PF_All14>
+<PF_All15>false</PF_All15>
 <NavigatorWidth>560</NavigatorWidth>
 <NavigatorThumbBrowserWidth>629</NavigatorThumbBrowserWidth>
 <NavigatorRightPanel>428</NavigatorRightPanel>
@@ -1300,7 +1318,6 @@
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Guns N&apos; Roses\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Have a Nice Life\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Iron Maiden\</string>
- <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Jimi Hendrix\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Joy Division\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Kanye West\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Kendrick Lamar\</string>
@@ -1328,7 +1345,6 @@
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\宇多田光\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\王菲\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\万能青年旅店\</string>
- <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\陶喆\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\宋冬野\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\卢广仲\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\交工乐队\</string>
@@ -1370,6 +1386,9 @@
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Broken Social Scene\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\陈粒\</string>
  <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Lana Del Rey\</string>
+ <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\陶喆\</string>
+ <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\Jimi Hendrix\</string>
+ <string>C:\Users\xwd\Music\MusicBee\Playlists\Music\The Rolling Stones\</string>
 </NavigatorPlaylistFoldersExpanded>
 <ThumbPanelHeight>450</ThumbPanelHeight>
 <ThumbPanelWidth>330</ThumbPanelWidth>
@@ -1419,10 +1438,10 @@
  <Style>Regular</Style>
 </FormNowPlayingLyricsFont>
 <LyricsCustomColour>-8323073</LyricsCustomColour>
-<LYP_TextAlign>2</LYP_TextAlign>
+<LYP_TextAlign>0</LYP_TextAlign>
 <SoundGraphHeight>51</SoundGraphHeight>
 <SoundGraphCount>1</SoundGraphCount>
-<TB_Height>27</TB_Height>
+<TB_Height>18</TB_Height>
 <FormNowPlayingSidebarArtworkHeight>663</FormNowPlayingSidebarArtworkHeight>
 <TIP_FloatHeight>0</TIP_FloatHeight>
 <TIP_NowPlayHeight>0</TIP_NowPlayHeight>
@@ -1817,7 +1836,7 @@
 <PlayerMiniPlayerHideTaskbar>true</PlayerMiniPlayerHideTaskbar>
 <MP_PlaylistType>0</MP_PlaylistType>
 <MP_ShowUpcomingTracks>false</MP_ShowUpcomingTracks>
-<ThumbPlayerShowStopButton>true</ThumbPlayerShowStopButton>
+<ThumbPlayerShowStopButton>false</ThumbPlayerShowStopButton>
 <ThumbPlayerShowRatingButtons>false</ThumbPlayerShowRatingButtons>
 <ThumbPlayerShowLastFmLoveButton>false</ThumbPlayerShowLastFmLoveButton>
 <ThumbPlayerShowVolumeButtons>false</ThumbPlayerShowVolumeButtons>
@@ -1920,10 +1939,10 @@
 <NP_PlayingTrHeight>225</NP_PlayingTrHeight>
 <NP_ShowUpcomingTracks>false</NP_ShowUpcomingTracks>
 <NP_LargeAlbumUpgraded>true</NP_LargeAlbumUpgraded>
-<CompactRotateArtistPictures>true</CompactRotateArtistPictures>
 <PM_PanelHeight>0</PM_PanelHeight>
 <PM_HeaderHidden>false</PM_HeaderHidden>
 <PM_ShowHeader>true</PM_ShowHeader>
+<PM_HidePlaylistIcon>false</PM_HidePlaylistIcon>
 <PM_AutoColor>true</PM_AutoColor>
 <PM_ShowTrackFinder>false</PM_ShowTrackFinder>
 <NowPlayingContentTab>13</NowPlayingContentTab>
@@ -1952,7 +1971,7 @@
 <SB_ShowStats>true</SB_ShowStats>
 <NavigatorSummaryInfoRounded>false</NavigatorSummaryInfoRounded>
 <ShowPlayTimeRemaining>false</ShowPlayTimeRemaining>
-<NavigatorLastCopyToDirectory>C:\Users\xwd\Music\</NavigatorLastCopyToDirectory>
+<NavigatorLastCopyToDirectory>\Music\</NavigatorLastCopyToDirectory>
 <OrganisationScanOnStartup>false</OrganisationScanOnStartup>
 <OrganisationAddNewImportedFilesToInbox>false</OrganisationAddNewImportedFilesToInbox>
 <OrganisationUseDefaultFolderRules>true</OrganisationUseDefaultFolderRules>
@@ -2037,7 +2056,7 @@
 <PlayerBufferMs>0</PlayerBufferMs>
 <PlayerLoadEntireFile>false</PlayerLoadEntireFile>
 <ShowClickToPlayButton>false</ShowClickToPlayButton>
-<PlayerVolume>0.1</PlayerVolume>
+<PlayerVolume>0.098421052631579</PlayerVolume>
 <PlayerLogarithmicVolume>false</PlayerLogarithmicVolume>
 <PlayCountSkipPercent>0</PlayCountSkipPercent>
 <PlayCountSkipSecs>20</PlayCountSkipSecs>
@@ -2064,6 +2083,7 @@
 <PlayerPopupAtEndDuration>0</PlayerPopupAtEndDuration>
 <PlayerPopupOnMediaKey>false</PlayerPopupOnMediaKey>
 <PlayerResampleRate>0</PlayerResampleRate>
+<PlayerResampleDown>false</PlayerResampleDown>
 <PlayerUpmixChannelCount>0</PlayerUpmixChannelCount>
 <PlayerTrimSilence>false</PlayerTrimSilence>
 <PlayerAddSilence>0</PlayerAddSilence>
@@ -2276,8 +2296,8 @@
 <AutoTagArtworkMinPictureSize>0</AutoTagArtworkMinPictureSize>
 <AutoTagArtworkMaxPictureSize>0</AutoTagArtworkMaxPictureSize>
 <ArtworkLocationUpgraded>true</ArtworkLocationUpgraded>
-<ArtistPictureLocation>C:\Users\xwd\Music\MusicBee\Artist Pictures\</ArtistPictureLocation>
-<SoundtrackPictureLocation>C:\Users\xwd\Music\MusicBee\Soundtrack Pictures\</SoundtrackPictureLocation>
+<ArtistPictureLocation>\Music\MusicBee\Artist Pictures\</ArtistPictureLocation>
+<SoundtrackPictureLocation>\Music\MusicBee\Soundtrack Pictures\</SoundtrackPictureLocation>
 <TagPictureLocations>2</TagPictureLocations>
 <TagArtworkScanFolders>false</TagArtworkScanFolders>
 <TagArtworkNamingRules>
@@ -2298,6 +2318,7 @@
 <TagArtworkAutoDownload>false</TagArtworkAutoDownload>
 <TagArtworkAutoSaveDownloaded>false</TagArtworkAutoSaveDownloaded>
 <DisableMovieArtworkDownload>false</DisableMovieArtworkDownload>
+<CompactRotateArtistPictures>true</CompactRotateArtistPictures>
 <TagArtistArtworkGoogle>true</TagArtistArtworkGoogle>
 <AutoTagLyricProviders>
  <int>33</int>
@@ -2338,7 +2359,7 @@
 <FileConverterRemoveOriginal>false</FileConverterRemoveOriginal>
 <OrganisationAddConvertedToInbox>false</OrganisationAddConvertedToInbox>
 <FileConverterOutputToOrigFolder>false</FileConverterOutputToOrigFolder>
-<FileConverterOutputToFolder>D:\Music\fengui\</FileConverterOutputToFolder>
+<FileConverterOutputToFolder>\Music\fengui\</FileConverterOutputToFolder>
 <FileConverterOrganisedFilename>true</FileConverterOrganisedFilename>
 <FileConverterOrganisedFileNaming>
  <NamingRule>

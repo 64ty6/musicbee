@@ -17,13 +17,13 @@ MusicBee 完整配置备份，在新电脑上 clone 后一键还原。
 .
 ├── restore.ps1         # 一键还原
 ├── backup.ps1          # 一键备份
-├── program/            # → D:\Music\MusicBee\     (安装目录配置)
+├── program/            # → D:\Music\MusicBee\          (安装目录配置)
 │   ├── Configuration.xml
 │   ├── Skins/          # 皮肤 (One-Dark 等)
 │   ├── Plugins/        # 插件 (歌词、剧院模式)
 │   ├── BBplugin/       # 可视化效果
 │   └── Localisation/   # 语言包 (简体中文)
-├── settings/           # → %APPDATA%\MusicBee\    (用户偏好)
+├── settings/           # → D:\Music\MusicBee\AppData\  (用户偏好，便携模式)
 │   └── MusicBee3Settings.ini  # 布局/快捷键/排序/同步
 └── library/            # → %USERPROFILE%\Music\MusicBee\  (曲库)
     ├── MusicBeeLibrary.mbl    # 歌曲元数据/评分/播放次数
@@ -38,6 +38,15 @@ MusicBee 完整配置备份，在新电脑上 clone 后一键还原。
 ```
 
 会生成 `MusicBee-Backup\<时间戳>\`，包含 `program/`、`settings/`、`library/` 三个目录。
+
+> 设置目录当前是便携模式下的 `D:\Music\MusicBee\AppData\`（早期版本使用 `%APPDATA%\MusicBee\`）。
+
+## 不备份的内容
+
+以下内容可自动重建或只与本次运行有关，已排除且不提交到仓库：
+
+- `settings/InternalCache/`、`settings/AlbumCoverHashes.dat` —— 专辑封面缓存
+- `settings/ActivityLog.dat`、`ErrorLog.dat`、`Downloads.dat`、`mb_LyricsReloaded/Log.log` —— 运行日志
 
 ## 配置详情
 

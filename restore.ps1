@@ -18,10 +18,10 @@ if (Test-Path $src) {
     Write-Host "  D:\Music\MusicBee\" -ForegroundColor Green
 }
 
-# settings/ → %APPDATA%\MusicBee
+# settings/ → D:\Music\MusicBee\AppData (便携模式设置目录)
 Write-Host "[2/3] 用户设置..." -ForegroundColor Yellow
 $src = Join-Path $Source "settings"
-$dst = "$env:APPDATA\MusicBee"
+$dst = "D:\Music\MusicBee\AppData"
 if (Test-Path $src) {
     if (-not (Test-Path $dst)) { New-Item -ItemType Directory -Path $dst -Force | Out-Null }
     Get-ChildItem $src | Copy-Item -Destination $dst -Recurse -Force

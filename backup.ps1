@@ -17,11 +17,22 @@ New-Item -ItemType Directory -Path $dst -Force | Out-Null
 }
 Write-Host "  完成" -ForegroundColor Green
 
-# settings/ — %APPDATA%\MusicBee
+# settings/ — D:\Music\MusicBee\AppData (便携模式设置目录)
 Write-Host "[2/3] 用户设置..." -ForegroundColor Yellow
-$s = "$env:APPDATA\MusicBee"
+$s = "D:\Music\MusicBee\AppData"
 $d = Join-Path $dest "settings"
-if (Test-Path $s) { Copy-Item $s -Destination $d -Recurse -Force; Write-Host "  完成" -ForegroundColor Green }
+if (Test-Path $s) {
+    Copy-Item $s -Destination $d -Recurse -Force
+    # 剔除缓存和运行日志：可由 MusicBee 自动重建，见 .gitignore
+    @("InternalCache","ActivityLog.dat","ErrorLog.dat","Downloads.dat",
+      "AlbumCoverHashes.dat") | ForEach-Object {
+        $p = Join-Path $d $_
+        if (Test-Path $p) { Remove-Item $p -Recurse -Force }
+    }
+    $log = Join-Path $d "mb_LyricsReloaded\Log.log"
+    if (Test-Path $log) { Remove-Item $log -Force }
+    Write-Host "  完成" -ForegroundColor Green
+}
 
 # library/ — %USERPROFILE%\Music\MusicBee
 Write-Host "[3/3] 曲库数据库..." -ForegroundColor Yellow
