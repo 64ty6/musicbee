@@ -242,3 +242,11 @@ git push
 - **还原与更新前都先关闭 MusicBee**（含托盘图标）。
 - **备用方式**：仓库自带 `restore.ps1`，可一键完成上述步骤 2–4（同样要求先关闭 MusicBee）。若不想运行脚本，按本文手动步骤执行即可。
 
+
+## 私有迁移数据（2026-10-11）
+
+最新个人配置和状态存放在私有仓库 `64ty6/wezterm-yazi-nushell-starship` 的 `migration/data/
+musicbee
+`，本公开仓库保留脚本与可公开配置。完整恢复请参照私有仓库 `migration/README.md`，使用 `migration/restore-all.ps1`。单独调用此仓库的 `restore.ps1` 时，传入 `-Source <私有迁移快照目录>`。大型运行环境另存私有 Release 附件。
+
+旧个人数据在当前分支已移除；此前公开提交的历史不在本次重写范围内。
