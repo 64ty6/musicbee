@@ -1,42 +1,23 @@
-# MusicBee 配置还原
-# 将仓库中的配置部署到系统对应路径
-
+#requires -Version 7.0
+# MusicBee 恢复，全部源目录通过校验后再覆盖。
 param(
-    [string]$Source = $PSScriptRoot
+    [string]$Source = $PSScriptRoot,
+    [string]$ProgramDirectory = 'D:\Music\MusicBee',
+    [string]$LibraryDirectory = (Join-Path $env:USERPROFILE 'Music/MusicBee')
 )
 
-Write-Host "=== MusicBee 配置还原 ===" -ForegroundColor Cyan
+$ErrorActionPreference = 'Stop'
+. (Join-Path $PSScriptRoot 'scripts/config-common.ps1')
 
-$mb = Get-Process MusicBee -ErrorAction SilentlyContinue
-if ($mb) { Write-Host "请先关闭 MusicBee" -ForegroundColor Red; exit 1 }
+Assert-ApplicationStopped @('MusicBee')
+Assert-RequiredPaths $ProgramDirectory @('MusicBee.exe')
+Assert-RequiredPaths (Join-Path $Source 'program') @('Configuration.xml')
+Assert-RequiredPaths (Join-Path $Source 'settings') @('MusicBee3Settings.ini')
+Assert-RequiredPaths (Join-Path $Source 'library') @('MusicBeeLibrary.mbl', 'MusicBeeLibrarySettings.ini')
+if (Test-Path -LiteralPath (Join-Path $Source '.backup-incomplete')) { throw '该备份尚未完成，不能恢复。' }
+Restore-Configuration @(
+    @{ Source = (Join-Path $Source 'program'); Destination = $ProgramDirectory },
+    @{ Source = (Join-Path $Source 'settings'); Destination = (Join-Path $ProgramDirectory 'AppData') },
+    @{ Source = (Join-Path $Source 'library'); Destination = $LibraryDirectory }
+)
 
-# program/ → D:\Music\MusicBee
-Write-Host "[1/3] 安装目录配置..." -ForegroundColor Yellow
-$src = Join-Path $Source "program"
-if (Test-Path $src) {
-    Get-ChildItem $src | Copy-Item -Destination "D:\Music\MusicBee" -Recurse -Force
-    Write-Host "  D:\Music\MusicBee\" -ForegroundColor Green
-}
-
-# settings/ → D:\Music\MusicBee\AppData (便携模式设置目录)
-Write-Host "[2/3] 用户设置..." -ForegroundColor Yellow
-$src = Join-Path $Source "settings"
-$dst = "D:\Music\MusicBee\AppData"
-if (Test-Path $src) {
-    if (-not (Test-Path $dst)) { New-Item -ItemType Directory -Path $dst -Force | Out-Null }
-    Get-ChildItem $src | Copy-Item -Destination $dst -Recurse -Force
-    Write-Host "  $dst" -ForegroundColor Green
-}
-
-# library/ → %USERPROFILE%\Music\MusicBee
-Write-Host "[3/3] 曲库数据库..." -ForegroundColor Yellow
-$src = Join-Path $Source "library"
-$dst = "$env:USERPROFILE\Music\MusicBee"
-if (Test-Path $src) {
-    if (-not (Test-Path $dst)) { New-Item -ItemType Directory -Path $dst -Force | Out-Null }
-    Get-ChildItem $src | Copy-Item -Destination $dst -Recurse -Force
-    Write-Host "  $dst" -ForegroundColor Green
-}
-
-Write-Host "`n=== 完成 ===" -ForegroundColor Cyan
-Write-Host "启动 MusicBee 即可。"

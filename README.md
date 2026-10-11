@@ -6,6 +6,26 @@
 
 ---
 
+
+## PowerShell 7 脚本入口
+
+所有 PowerShell 命令均在 **PowerShell 7** 中执行。仓库脚本使用 `#requires -Version 7.0`，不支持 Windows PowerShell 5.1。
+
+```powershell
+pwsh -NoProfile -Command '$PSVersionTable.PSVersion'
+pwsh -NoProfile -File .\backup.ps1
+pwsh -NoProfile -File .\restore.ps1
+```
+
+自动操作优先使用以上脚本；下文手动步骤用于说明目录映射和还原后检查，不能绕过脚本的进程及完整性校验。
+
+- 备份前完全退出应用及后台进程。缺少必要配置、文件被占用或复制失败时脚本报错停止，不打印成功。
+- 导出目录内的 `.backup-incomplete` 表示快照尚未完成；存在该标记时禁止恢复。每次导出使用独立目录，不与旧备份合并。
+- 恢复前先验证所有源目录，再把将要覆盖的现有配置复制到目标目录旁的 `*.before-restore-<时间戳>`。发生错误时可从该目录找回原文件；新复制的文件不会自动回滚。
+- 目录按内容逐项复制，重复恢复不会产生同名子目录嵌套。数据库的 `CURRENT` 必须指向存在且可读取的 `MANIFEST-*`；数值命名的事务日志（如 `000003.log`）属于数据库内容，必须保留。
+- 若在 Codex 等沙盒中操作，进程列表可能不完整。请先在宿主机确认应用退出；文件锁或复制错误仍会使脚本停止。
+
+
 ## 前置要求
 
 1. **安装 MusicBee 3.x 便携版（Portable）到 `D:\Music\MusicBee\`**
@@ -221,3 +241,4 @@ git push
   3. **不要**直接删除 `.mbl` 重新入库——那样会丢失评分与播放次数。
 - **还原与更新前都先关闭 MusicBee**（含托盘图标）。
 - **备用方式**：仓库自带 `restore.ps1`，可一键完成上述步骤 2–4（同样要求先关闭 MusicBee）。若不想运行脚本，按本文手动步骤执行即可。
+
